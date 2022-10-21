@@ -1,0 +1,37 @@
+.main-content{
+    padding: 5rem 10rem;
+    background-color: rgb(163, 219, 212);
+    
+    max-width: 1500px;
+    position: static;
+    justify-content: center;
+    text-align: center;
+    bottom: rgb(243, 3, 63);
+    color:rgb(78, 0, 13);
+}
+.main-text{
+    margin-bottom: 3rem;
+}
+.main-text h1{
+    margin-bottom: 1rem;
+}
+.course-manager{
+    color: var(--color-font-dark);
+    background: transparent;
+    border: 10px solid rgb(226, 67, 226);
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+.course-manager:hover{
+    transition: 0.15s ease-in-out;
+    transform: scale(1.05);
+    border: 5px solid rgb(255, 9, 9);
+    color: rgb(250, 0, 125);
+    font-weight: 700;
+    padding: 25px;
+}
+
+
